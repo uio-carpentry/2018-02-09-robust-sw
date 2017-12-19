@@ -253,6 +253,8 @@ hands-on workshop will introduce you to Jupyter dashboards for reproducible rese
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
+
+{% comment %}
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
@@ -263,6 +265,7 @@ hands-on workshop will introduce you to Jupyter dashboards for reproducible rese
   {% include lc/syllabus.html %}
 {% endif %}
 
+{% endcomment %}
 <hr/>
 
 {% comment %}
