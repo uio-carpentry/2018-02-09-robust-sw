@@ -185,7 +185,19 @@ hands-on workshop will introduce you to Jupyter dashboards for reproducible rese
 </p>
 
 <hr/>
+<h2 id="objectives">Learning objectives</h2>
 
+The learning objectives for the workshop are:
+
+- Understand what we mean by making your research more reproducible
+- Understand the value of reproducible research practices
+- Learn how to make your research more reproducible using Jupyter dashboards
+
+No prior knowledge of jupyter dashboards or jupyter notebooks is required. 
+
+The workshop is aimed at graduate students, postdocs and other researchers who perform computational analysis or work. The material uses basic Python for teaching and illustrating the key concepts. Advanced knowledge of Python is not needed, but some familiarity with Python will help to understand the material.
+
+<hr/>
 {% comment %}
   SCHEDULE
 
