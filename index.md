@@ -265,8 +265,8 @@ hands-on workshop will introduce you to Jupyter dashboards for reproducible rese
   {% include lc/syllabus.html %}
 {% endif %}
 
-{% endcomment %}
 <hr/>
+{% endcomment %}
 
 {% comment %}
   SETUP
