@@ -192,8 +192,9 @@ hands-on workshop will introduce you methods for making your Python-based softwa
 The learning objectives for the workshop are:
 
 - Understand what we mean by, and the value of testing your code
-- Be able to write simple Integration and Regression Tests
-- Learn how to automate running the tests when using an online repository trough Continuous Integration
+- Be able to write simple tests to make sure your code is doing what it is supposed to be doing
+- Learn how to automate running the tests when using an online repository
+- Know how to make testing part of the code writing process
 
 The workshop is aimed at graduate students, postdocs and other researchers 
 who perform computational analysis or work.
