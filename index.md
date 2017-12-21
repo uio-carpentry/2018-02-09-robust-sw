@@ -193,7 +193,7 @@ The learning objectives for the workshop are:
 
 - Understand what we mean by, and the value of testing your code
 - Be able to write simple Integration and Regression Tests
-- Learn how to automate running the tests when using an online repository
+- Learn how to automate running the tests when using an online repository trough Continuous Integration
 
 The workshop is aimed at graduate students, postdocs and other researchers 
 who perform computational analysis or work.
