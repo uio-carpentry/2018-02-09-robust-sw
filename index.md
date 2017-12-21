@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "Carpentry@UiO workshop: Interactive Research with Jupyter Dashboards"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Carpentry@UiO workshop: Making your software robust"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Bikuben Nucleus 1, Kristine Bonnevies hus, University of Oslo, Oslo, Norway"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "no"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "59.9381684,10.7217819"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "February 8th, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "February 9th, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-02-08      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-02-08        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Ana Costa", "Gladys Nalvarte", "Benjamin Ragan-Kelley", "Anne Fouilloux"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+startdate: 2018-02-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-02-09        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Anne Fouilloux", "Lex Nederbragt"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["contact-us@swcarpentry.uio.no"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: http://pad.software-carpentry.org/2018-02-08-dashboards            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: http://pad.software-carpentry.org/2018-02-09-robust-sw            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -67,7 +67,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 
 This one-day <a href="http://www.uio.no/english/for-employees/support/research/research-data/training/carpentry/">Carpentry@UiO</a> 
-hands-on workshop will introduce you to Jupyter dashboards for reproducible research.
+hands-on workshop will introduce you methods for making your Python-based software more robust.
 
 {% comment %}
   AUDIENCE
@@ -121,7 +121,9 @@ hands-on workshop will introduce you to Jupyter dashboards for reproducible rese
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
+  <strong>Requirements:</strong> Participants must be comfortable with <strong>programming in Python</strong> and <strong>the Unix shell</strong>.
+  Experience with version control using git og github is a big benefit. 
+  Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
@@ -189,13 +191,14 @@ hands-on workshop will introduce you to Jupyter dashboards for reproducible rese
 
 The learning objectives for the workshop are:
 
-- Understand what we mean by making your research more reproducible
-- Understand the value of reproducible research practices
-- Learn how to make your research more reproducible using Jupyter dashboards
+- Understand what we mean by, and the value of testing your code
+- Be able to write simple Integration and Regression Tests
+- Learn how to automate running the tests when using an online repository
 
-No prior knowledge of jupyter dashboards or jupyter notebooks is required. 
-
-The workshop is aimed at graduate students, postdocs and other researchers who perform computational analysis or work. The material uses basic Python for teaching and illustrating the key concepts. Advanced knowledge of Python is not needed, but some familiarity with Python will help to understand the material.
+The workshop is aimed at graduate students, postdocs and other researchers 
+who perform computational analysis or work.
+The material uses Python and the unix shell for teaching and illustrating the key concepts 
+and a working knowledge of these tools is needed to understand the material.
 
 <hr/>
 {% comment %}
